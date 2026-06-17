@@ -1,0 +1,18 @@
+# Use this for training your custom all-9 traffic violation YOLO model.
+# Update train/val paths to your annotated YOLO dataset folders.
+path: ./dataset
+train: images/train
+val: images/val
+
+names:
+  0: helmet
+  1: no_helmet
+  2: triple_riding
+  3: illegal_parking
+  4: wrong_side_driving
+  5: red_light_violation
+  6: stop_line_violation
+  7: seatbelt
+  8: no_seatbelt
+  9: license_plate
+  10: multiple_violations

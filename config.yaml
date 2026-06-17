@@ -1,0 +1,6 @@
+vehicle_model: yolov8n.pt
+custom_violation_model: models/traffic_violation_yolo.pt
+confidence: 0.25
+iou: 0.45
+output_dir: outputs
+csv_path: data/violations.csv
